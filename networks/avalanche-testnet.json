@@ -1,0 +1,40 @@
+{
+    "Contracts": {
+        "AtlantisLens": "",
+        "Unitroller": "",
+        "Comptroller": "",
+        "LPVaultProxy": "0x",
+        "LP": "0x",
+        "AtlantisVaultProxy": "0x",
+        "aAVAX": "",
+        "Timelock": "",
+        "GovernorAlpha": "",
+        "AtlantisPriceOracle": "",
+        "AtlantisChainLinkOracle": "",
+        "Base0bps_Slope1200bps_Jump2800bps_Kink80": "",
+        "Base260bps_Slope1200bps_Jump3000bps_Kink80": ""
+       
+    },
+    "InterestRateModel": {
+        "Base0bps_Slope1200bps_Jump2800bps_Kink80": {
+            "name": "Base0bps_Slope1200bps_Jump2800bps_Kink80",
+            "contract": "JumpRateModelV2",
+            "description": "JumpRateModelV2 baseRate=0 multiplier=120000000000000000 jump=2800000000000000000 kink=800000000000000000",
+            "address": "0xC2F02c119ACD716a55D55456df2f192C20235fBF",
+            "base": "0",
+            "slope": "120000000000000000",
+            "jump": "2800000000000000000",
+            "kink": "800000000000000000"
+        },
+        "Base260bps_Slope1200bps_Jump3000bps_Kink80": {
+            "name": "Base260bps_Slope1200bps_Jump3000bps_Kink80",
+            "contract": "JumpRateModelV2",
+            "description": "JumpRateModelV2 baseRate=260000000000000000 multiplier=120000000000000000 jump=3000000000000000000 kink=800000000000000000",
+            "address": "0xC303D3AEAC1D5a0e7fF0040400931650E299245F",
+            "base": "260000000000000000",
+            "slope": "120000000000000000",
+            "jump": "3000000000000000000",
+            "kink": "800000000000000000"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Contracts": {
+        "AtlantisLens": "0xAd0246983e84C39181078a1f83e36bFeBe1B2B64",
+        "Unitroller": "0x8F85EE1c0a96734cb76870106DD9C016db6dE09A",
+        "Comptroller": "0xb3E91b3F1d2Ba099a283c00D807177E942aaA759",
+        "CommunityVaultProxy": "0x50f620083D77A04fe44Bb2fb294133C71CfCE3B1",
+        "LP": "0xAF17e99FDfc5362BF705F2b6e0E8D1cCA8137A2d",
+        "Timelock": "",
+        "GovernorAlpha": "",
+        "AtlantisChainLinkOracle": "0x06004Dd79f997B1A8d6c9660a71CaA838Efb8C9d",
+        "Base0bps_Slope1200bps_Jump2800bps_Kink80": "0xc33BC01C5CaaAb948C707AFa3B753b79a3615e63",
+        "Base260bps_Slope1200bps_Jump3000bps_Kink80": ""
+       
+    },
+    "InterestRateModel": {
+        "Base0bps_Slope1200bps_Jump2800bps_Kink80": {
+            "name": "Base0bps_Slope1200bps_Jump2800bps_Kink80",
+            "contract": "JumpRateModelV2",
+            "description": "JumpRateModelV2 baseRate=0 multiplier=120000000000000000 jump=2800000000000000000 kink=800000000000000000",
+            "address": "0xc33BC01C5CaaAb948C707AFa3B753b79a3615e63",
+            "base": "0",
+            "slope": "120000000000000000",
+            "jump": "2800000000000000000",
+            "kink": "800000000000000000"
+        },
+        "Base260bps_Slope1200bps_Jump3000bps_Kink80": {
+            "name": "Base260bps_Slope1200bps_Jump3000bps_Kink80",
+            "contract": "JumpRateModelV2",
+            "description": "JumpRateModelV2 baseRate=260000000000000000 multiplier=120000000000000000 jump=3000000000000000000 kink=800000000000000000",
+            "address": "",
+            "base": "260000000000000000",
+            "slope": "120000000000000000",
+            "jump": "3000000000000000000",
+            "kink": "800000000000000000"
+        }
+    }
+}
